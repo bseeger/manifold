@@ -1,0 +1,9 @@
+exports[`GlobalLoadingBar component renders correctly 1`] = `
+<div>
+  <div
+    className="loading-bar default">
+    <div
+      className="progress" />
+  </div>
+</div>
+`;

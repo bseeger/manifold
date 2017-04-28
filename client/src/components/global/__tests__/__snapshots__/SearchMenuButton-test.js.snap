@@ -1,0 +1,13 @@
+exports[`GlobalSearchMenuButton component renders correctly 1`] = `
+<button
+  className="button-search"
+  data-id="toggle-menu"
+  onClick={[Function]}>
+  <i
+    className="manicon manicon-magnify" />
+  <span
+    className="screen-reader-text">
+    Click to open search
+  </span>
+</button>
+`;

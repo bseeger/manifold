@@ -1,0 +1,10 @@
+exports[`GlobalDropdown component renders correctly 1`] = `
+<div>
+  <div>
+    Render me
+  </div>
+  <div>
+    Me too
+  </div>
+</div>
+`;

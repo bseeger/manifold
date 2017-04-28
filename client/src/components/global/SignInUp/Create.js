@@ -204,7 +204,7 @@ class Create extends Component {
           {'By creating this account, you agree to Manifold\'s terms and conditions.'}
         </p>
         <p className="login-links">
-          <a href="#" onClick={this.props.showLogin}>
+          <a href="#" onClick={this.props.showLogin} data-id="show-login">
             {'Already have an account?'}
           </a>
         </p>

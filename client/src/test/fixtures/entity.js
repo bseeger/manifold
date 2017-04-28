@@ -1,5 +1,8 @@
 import uuid from 'uuid';
 
+const commentDate = new Date();
+commentDate.setDate(commentDate.getDate() - 4); // Must be constant for comment snapshot 'days ago' rendering
+
 const defaults = {
 
   settings: {
@@ -8,6 +11,17 @@ const defaults = {
       general: {},
       theme: {
         typekitId: null
+      },
+      oauth: {
+        facebook: {
+          enabled: false
+        },
+        googleOauth2: {
+          enabled: true
+        },
+        twitter: {
+          enabled: true
+        }
       }
     },
     features: {},
@@ -41,17 +55,6 @@ const defaults = {
       mediumPortrait: null,
       largeLandscape: null,
       original: null
-    },
-    oauth: {
-      facebook: {
-        enabled: false
-      },
-      googleOauth2: {
-        enabled: true
-      },
-      twitter: {
-        enabled: true
-      }
     }
   },
 
@@ -103,6 +106,30 @@ const defaults = {
     relationships: {
       collectionResources: []
     }
+  },
+
+  comment: {
+    type: "comments",
+    attributes: {
+      body: "Plaid clash with polka dots, I hope you ain't mad.",
+      createdAt: commentDate
+    },
+    relationships: {
+      creator: null
+    }
+  },
+
+  user: {
+    type: "users",
+    attributes: {
+      email: "test@cic-fake.gotcha",
+      firstName: "Rowan",
+      lastName: "Ida",
+      fullName: "Rowan Ida",
+      role: "Admin",
+      avatarStyles: {},
+      isCurrentUser: true
+    }
   }
 
 };
@@ -133,14 +160,25 @@ const collectionResource = (id = null, attributes = {}, relationships = {}) => {
   return buildEntity("collectionResource", id, attributes, relationships);
 };
 
+const comment = (id = null, attributes = {}, relationships = {}) => {
+  return buildEntity("comment", id, attributes, relationships);
+};
+
+const user = (id = null, attributes = {}, relationships = {}) => {
+  return buildEntity("user", id, attributes, relationships);
+};
+
 const settings = (id = 0, attributes = {}, relationships = {}) => {
   return buildEntity("settings", id, attributes, relationships);
 };
 
 export default {
+  defaults,
   project,
   resource,
   collection,
   collectionResource,
+  comment,
+  user,
   settings
 };

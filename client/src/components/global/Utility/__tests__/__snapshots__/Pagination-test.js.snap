@@ -1,0 +1,55 @@
+exports[`GlobalFormPagination component renders correctly 1`] = `
+<nav
+  className="list-pagination-primary">
+  <ul>
+    <li
+      className="pagination-previous"
+      style={
+        Object {
+          "visibility": "hidden",
+        }
+      }>
+      <a
+        href="#pagination-target"
+        onClick={[Function]}>
+        <i
+          className="manicon manicon-arrow-long-left" />
+        <span>
+          Prev
+        </span>
+      </a>
+    </li>
+    <li
+      className="active ordinal">
+      <a
+        href="#pagination-target"
+        onClick={[Function]}>
+        1
+      </a>
+    </li>
+    <li
+      className="ordinal">
+      <a
+        href="#pagination-target"
+        onClick={[Function]}>
+        2
+      </a>
+    </li>
+    <li
+      className="pagination-next"
+      style={Object {}}>
+      <a
+        href="#pagination-target"
+        onClick={[Function]}>
+        <span>
+          Next
+        </span>
+        <i
+          className="manicon manicon-arrow-long-right" />
+      </a>
+    </li>
+  </ul>
+</nav>
+`;
+
+exports[`GlobalFormPagination component renders null without pagination props 1`] = `null`;

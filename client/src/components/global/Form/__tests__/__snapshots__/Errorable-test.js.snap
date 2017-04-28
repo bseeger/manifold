@@ -1,0 +1,14 @@
+exports[`GlobalFormErrorable component renders correctly 1`] = `
+<div
+  className="form-error"
+  style={Object {}}>
+  <span
+    className="errors">
+    <span
+      className="error">
+      Name can\'t be blank.  
+      <br />
+    </span>
+  </span>
+</div>
+`;

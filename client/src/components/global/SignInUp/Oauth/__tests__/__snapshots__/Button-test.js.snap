@@ -1,0 +1,12 @@
+exports[`GlobalOauthButton component renders correctly 1`] = `
+<button
+  className="button-secondary-dark"
+  onClick={[Function]}>
+  <i
+    className="manicon manicon-twitter" />
+  <span>
+    Log in with 
+    twitter
+  </span>
+</button>
+`;
