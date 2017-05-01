@@ -2,7 +2,7 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import InputError from '../InputError';
 
-describe("GlobalFormInputError component", () => {
+describe("Global.Form.InputError component", () => {
 
   const error = {
     detail: "can't be blank",

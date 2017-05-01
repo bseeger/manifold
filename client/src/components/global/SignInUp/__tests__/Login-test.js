@@ -2,10 +2,10 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import { mount } from 'enzyme';
 import Login from '../Login';
-import build from 'test/fixtures/build'
+import build from 'test/fixtures/build';
 import { Provider } from 'react-redux';
 
-describe("GlobalSignInUpLogin component", () => {
+describe("Global.SignInUp.Login component", () => {
 
   const store = build.store();
 

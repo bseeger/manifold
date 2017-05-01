@@ -1,0 +1,20 @@
+exports[`Frontend.Resource.Hero component renders correctly 1`] = `
+<section
+  className="resource-hero-container">
+  <div
+    className="resource-hero">
+    <div
+      className="resource-slide-figure">
+      <figure>
+        <div
+          className="figure-image"
+          style={
+            Object {
+              "backgroundImage": "url(null)",
+            }
+          } />
+      </figure>
+    </div>
+  </div>
+</section>
+`;

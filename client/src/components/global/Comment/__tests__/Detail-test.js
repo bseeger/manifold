@@ -4,7 +4,7 @@ import Detail from '../Detail';
 import build from 'test/fixtures/build'
 import { Provider } from 'react-redux';
 
-describe("GlobalCommentDetail component", () => {
+describe("Global.Comment.Detail component", () => {
 
   const store = build.store();
 

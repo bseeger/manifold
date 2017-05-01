@@ -1,0 +1,16 @@
+exports[`Frontend.Utility.BackLinkPrimary component renders correctly 1`] = `
+<a
+  className="back-link-primary full"
+  onClick={[Function]}
+  style={Object {}}>
+  <div
+    className="container flush">
+    <i
+      className="manicon manicon-arrow-left" />
+    Back to Project
+    <span>
+      test
+    </span>
+  </div>
+</a>
+`;

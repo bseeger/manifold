@@ -1,4 +1,4 @@
-exports[`GlobalSearchMenuBody component renders correctly 1`] = `
+exports[`Global.SearchMenuBody component renders correctly 1`] = `
 <nav
   className="search-menu">
   <form>

@@ -3,7 +3,7 @@ import { mount } from 'enzyme';
 import renderer from 'react-test-renderer';
 import SearchMenuButton from '../SearchMenuButton';
 
-describe("GlobalSearchMenuButton component", () => {
+describe("Global.SearchMenuButton component", () => {
 
   const toggleSearchMenuMock = jest.fn();
   const root = (

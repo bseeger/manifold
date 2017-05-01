@@ -2,7 +2,7 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import LoadingBar from '../LoadingBar';
 
-describe("GlobalLoadingBar component", () => {
+describe("Global.LoadingBar component", () => {
 
   it('renders correctly', () => {
     const component = renderer.create(

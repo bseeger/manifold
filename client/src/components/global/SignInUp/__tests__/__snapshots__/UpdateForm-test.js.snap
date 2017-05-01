@@ -1,4 +1,4 @@
-exports[`GlobalSignInUpUpdateForm component renders correctly when mode is existing 1`] = `
+exports[`Global.SignInUp.UpdateForm component renders correctly when mode is existing 1`] = `
 <form
   autoComplete="off"
   className="sign-in-up-update"
@@ -108,7 +108,7 @@ exports[`GlobalSignInUpUpdateForm component renders correctly when mode is exist
 </form>
 `;
 
-exports[`GlobalSignInUpUpdateForm component renders correctly when mode is new 1`] = `
+exports[`Global.SignInUp.UpdateForm component renders correctly when mode is new 1`] = `
 <form
   autoComplete="off"
   className="sign-in-up-update"

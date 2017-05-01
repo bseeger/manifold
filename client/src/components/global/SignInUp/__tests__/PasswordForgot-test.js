@@ -2,10 +2,10 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import { mount } from 'enzyme';
 import PasswordForgot from '../PasswordForgot';
-import build from 'test/fixtures/build'
+import build from 'test/fixtures/build';
 import { Provider } from 'react-redux';
 
-describe("GlobalSignInUpPasswordForgot component", () => {
+describe("Global.SignInUp.PasswordForgot component", () => {
 
   const store = build.store();
 

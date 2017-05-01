@@ -2,7 +2,7 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import EntityCount from '../EntityCount';
 
-describe("GlobalFormEntityCount component", () => {
+describe("Global.Form.EntityCount component", () => {
 
   const props = {
     pagination: {

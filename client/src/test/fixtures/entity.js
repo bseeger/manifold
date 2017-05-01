@@ -61,7 +61,11 @@ const defaults = {
   project: {
     type: "projects",
     attributes: {
-      title: "Rowan Test"
+      title: "Rowan Test",
+      subtitle: "World's Greatest Dog",
+      heroStyles: {},
+      coverStyles: {},
+      avatarStyles: {}
     },
     relationships: {
       resources: []
@@ -74,7 +78,8 @@ const defaults = {
       title: "Rowan",
       createdAt: "2017-04-24T23:25:50.161Z",
       resourceKinds: ["image", "video"],
-      resourceTags: ["dog"]
+      resourceTags: ["dog"],
+      thumbnailStyles: {}
     },
     relationships: {
       resources: []
@@ -97,11 +102,16 @@ const defaults = {
     type: "resources",
     attributes: {
       title: "Image",
+      titleFormatted: "Image",
       kind: "image",
       attachmentStyles: {
         medium: null
       },
-      captionFormatted: "World's Greatest Dog"
+      descriptionFormatted: "Black and white freckles",
+      createdAt: "2017-04-24T23:25:50.161Z",
+      captionFormatted: "World's Greatest Dog",
+      downloadable: true,
+      tagList: ["dog", "puppy", "GOAT"]
     },
     relationships: {
       collectionResources: []
@@ -130,6 +140,58 @@ const defaults = {
       avatarStyles: {},
       isCurrentUser: true
     }
+  },
+
+  event: {
+    type: "events",
+    attributes: {
+      eventType: "TEXT_ADDED",
+      eventTitle: "Text Added",
+      eventSubtitle: "It was added",
+      subjectType: "Text",
+      subjectTitle: "New Text",
+      createdAt: "2017-04-24T23:25:50.161Z"
+    }
+  },
+
+  tweetEvent: {
+    type: "events",
+    attributes: {
+      eventType: "TWEET",
+      eventTitle: "Tweet Created",
+      subjectType: "Tweet",
+      subjectTitle: "New Tweet",
+      createdAt: "2017-04-24T23:25:50.161Z",
+      attributionName: "Manifold Scholarship",
+      attributionUrl: "https://twitter.com/ManifoldScholar",
+      attributionIdentifier: "ManifoldScholar",
+      excerpt: "Manifold is great!"
+    }
+  },
+
+  text: {
+    type: "texts",
+    attributes: {
+      title: "Ain't No Thang",
+      creatorNames: "Andre3000, Big Boi",
+      createdAt: "2017-04-24T23:25:50.161Z",
+      published: true,
+      coverStyles: {},
+      rights: "All Rights Reserved",
+      publicationDate: "2001-12-04"
+    },
+    relationships: {
+      category: null
+    }
+  },
+
+  category: {
+    type: "categories",
+    attributes: {
+      title: "Hip Hop Classics",
+      position: 1
+    },
+    relationships: {}
   }
 
 };
@@ -172,6 +234,22 @@ const settings = (id = 0, attributes = {}, relationships = {}) => {
   return buildEntity("settings", id, attributes, relationships);
 };
 
+const event = (id = null, attributes = {}, relationships = {}) => {
+  return buildEntity("event", id, attributes, relationships);
+};
+
+const tweetEvent = (id = null, attributes = {}, relationships = {}) => {
+  return buildEntity("tweetEvent", id, attributes, relationships);
+};
+
+const text = (id = null, attributes = {}, relationships = {}) => {
+  return buildEntity("text", id, attributes, relationships);
+};
+
+const category = (id = null, attributes = {}, relationships = {}) => {
+  return buildEntity("category", id, attributes, relationships);
+};
+
 export default {
   defaults,
   project,
@@ -180,5 +258,9 @@ export default {
   collectionResource,
   comment,
   user,
-  settings
+  settings,
+  event,
+  tweetEvent,
+  text,
+  category
 };

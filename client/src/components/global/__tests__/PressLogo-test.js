@@ -3,7 +3,7 @@ import { shallow } from 'enzyme';
 import renderer from 'react-test-renderer';
 import PressLogo from '../PressLogo';
 
-describe("GlobalPressLogo component", () => {
+describe("Global.PressLogo component", () => {
 
   it('renders correctly', () => {
     const component = renderer.create(

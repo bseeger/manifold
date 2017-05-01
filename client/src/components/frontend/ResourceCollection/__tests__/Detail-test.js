@@ -6,7 +6,7 @@ import { ResourceCollection } from 'components/frontend';
 import { Provider } from 'react-redux';
 import build from 'test/fixtures/build';
 
-describe("CollectionResourcesDetail Component", () => {
+describe("Frontend.ResourceCollection.Detail Component", () => {
 
   const pagination = build.pagination();
   const store = build.store();

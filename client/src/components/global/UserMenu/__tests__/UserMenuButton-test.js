@@ -2,9 +2,10 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import UserMenuButton from "../UserMenuButton";
 
-describe("GlobalUserMenuBody Component", () => {
+describe("Global.UserMenu.UserMenuButton Component", () => {
 
   const props = {
+    startLogout: jest.fn(),
     showLoginOverlay: jest.fn(),
     toggleUserMenu: jest.fn(),
     visible: false

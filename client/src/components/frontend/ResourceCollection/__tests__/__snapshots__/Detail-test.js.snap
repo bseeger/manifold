@@ -1,4 +1,4 @@
-exports[`CollectionResourcesDetail Component renders correctly 1`] = `
+exports[`Frontend.ResourceCollection.Detail Component renders correctly 1`] = `
 <section>
   <div
     className="container">
@@ -70,7 +70,7 @@ exports[`CollectionResourcesDetail Component renders correctly 1`] = `
                 className="resource-title"
                 dangerouslySetInnerHTML={
                   Object {
-                    "__html": undefined,
+                    "__html": "Image",
                   }
                 } />
             </header>
@@ -90,6 +90,15 @@ exports[`CollectionResourcesDetail Component renders correctly 1`] = `
                     Hide Description
                   </span>
                 </button>
+                <a
+                  className="download-link"
+                  onClick={[Function]}
+                  style={Object {}}
+                  target="_blank">
+                  Download
+                  <i
+                    className="manicon manicon-arrow-down" />
+                </a>
                 <a
                   className="detail-link"
                   onClick={[Function]}
@@ -283,9 +292,9 @@ exports[`CollectionResourcesDetail Component renders correctly 1`] = `
               <div
                 className="preview-text">
                 <span>
-                  View
+                  Preview
                   <i
-                    className="manicon manicon-arrow-right" />
+                    className="manicon manicon-eye-outline" />
                 </span>
               </div>
             </div>
@@ -300,12 +309,16 @@ exports[`CollectionResourcesDetail Component renders correctly 1`] = `
                   <h4
                     dangerouslySetInnerHTML={
                       Object {
-                        "__html": undefined,
+                        "__html": "Image",
                       }
                     } />
                 </header>
                 <span
-                  className="resource-date" />
+                  className="resource-date">
+                  <span>
+                    April, 2017
+                  </span>
+                </span>
                 <div
                   className="arrow-link"
                   to="/browse/project/undefined/collection/2/collection_resource/null">

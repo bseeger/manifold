@@ -1,0 +1,11 @@
+exports[`Frontend.Resource.Link component renders correctly 1`] = `
+<a
+  className="button-primary"
+  onClick={[Function]}
+  style={Object {}}
+  target="_blank">
+  Download 
+  <i
+    className="manicon manicon-arrow-down" />
+</a>
+`;

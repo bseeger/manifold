@@ -2,10 +2,10 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import { mount, shallow } from 'enzyme';
 import Overlay from '../Overlay';
-import build from 'test/fixtures/build'
+import build from 'test/fixtures/build';
 import { Provider } from 'react-redux';
 
-describe("GlobalSignInUpOverlay component", () => {
+describe("Global.SignInUp.Overlay component", () => {
 
   const store = build.store();
   const fakeDomEvent = { stopPropagation: () => undefined, preventDefault: () => undefined };

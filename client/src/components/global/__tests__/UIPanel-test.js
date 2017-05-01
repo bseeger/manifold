@@ -2,7 +2,7 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import UIPanel from '../UIPanel';
 
-describe("GlobalUIPanel component", () => {
+describe("Global.UIPanel component", () => {
 
   function bodyComponentMock() {
     return (

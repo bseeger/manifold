@@ -1,6 +1,4 @@
 import React, { Component, PropTypes } from 'react';
-import { bindActionCreators } from 'redux';
-import { Link } from 'react-router';
 import classNames from 'classnames';
 import fakeData from 'helpers/fakeData';
 import get from 'lodash/get';

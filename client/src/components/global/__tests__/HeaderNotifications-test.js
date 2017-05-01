@@ -36,7 +36,7 @@ function setup() {
   };
 }
 
-describe('GlobalHeaderNotifications component', () => {
+describe('Global.HeaderNotifications component', () => {
 
   it('renders correctly', () => {
     const component = renderer.create(

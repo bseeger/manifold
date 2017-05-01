@@ -11,7 +11,7 @@ function setup(props) {
   };
 }
 
-describe('GlobalDate component', () => {
+describe('Global.Date component', () => {
 
   it('renders correctly', () => {
     const component = renderer.create(

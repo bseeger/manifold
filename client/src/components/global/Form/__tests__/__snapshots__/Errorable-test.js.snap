@@ -1,4 +1,4 @@
-exports[`GlobalFormErrorable component renders correctly 1`] = `
+exports[`Global.Form.Errorable component renders correctly 1`] = `
 <div
   className="form-error"
   style={Object {}}>

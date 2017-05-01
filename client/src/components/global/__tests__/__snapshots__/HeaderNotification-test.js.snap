@@ -1,4 +1,4 @@
-exports[`GlobalHeaderNotification component renders correctly 1`] = `
+exports[`Global.HeaderNotification component renders correctly 1`] = `
 <div
   className="header-notification error">
   <div

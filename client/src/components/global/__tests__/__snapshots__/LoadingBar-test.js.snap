@@ -1,4 +1,4 @@
-exports[`GlobalLoadingBar component renders correctly 1`] = `
+exports[`Global.LoadingBar component renders correctly 1`] = `
 <div>
   <div
     className="loading-bar default">

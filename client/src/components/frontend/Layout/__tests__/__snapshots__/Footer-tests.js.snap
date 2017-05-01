@@ -1,4 +1,4 @@
-exports[`Footer component renders correctly 1`] = `
+exports[`Frontend.Layout.Footer component renders correctly 1`] = `
 <footer
   className="footer-browse">
   <div

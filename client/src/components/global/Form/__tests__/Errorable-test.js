@@ -2,7 +2,7 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import Errorable from '../Errorable';
 
-describe("GlobalFormErrorable component", () => {
+describe("Global.Form.Errorable component", () => {
 
   const error = {
     detail: "can't be blank",

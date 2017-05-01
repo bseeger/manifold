@@ -1,4 +1,4 @@
-exports[`GlobalAvatar component renders correctly 1`] = `
+exports[`Global.Avatar component renders correctly 1`] = `
 <figure
   className="avatar"
   style={undefined}>

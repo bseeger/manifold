@@ -1,4 +1,4 @@
-exports[`GlobalPressLogo component renders correctly 1`] = `
+exports[`Global.PressLogo component renders correctly 1`] = `
 <figure
   className="logo-square">
   <div

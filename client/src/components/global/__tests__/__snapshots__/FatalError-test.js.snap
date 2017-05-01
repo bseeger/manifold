@@ -1,4 +1,4 @@
-exports[`GlobalFatalError component renders correctly 1`] = `
+exports[`Global.FatalError component renders correctly 1`] = `
 <section
   className="error-page">
   <div

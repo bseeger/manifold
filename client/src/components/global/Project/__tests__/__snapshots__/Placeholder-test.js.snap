@@ -1,4 +1,4 @@
-exports[`GlobalProjectPlaceholder component renders correctly 1`] = `
+exports[`Global.Project.Placeholder component renders correctly 1`] = `
 <svg
   className="project-thumb-placeholder quaternary"
   height="200.68436px"

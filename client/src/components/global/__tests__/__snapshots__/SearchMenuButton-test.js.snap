@@ -1,4 +1,4 @@
-exports[`GlobalSearchMenuButton component renders correctly 1`] = `
+exports[`Global.SearchMenuButton component renders correctly 1`] = `
 <button
   className="button-search"
   data-id="toggle-menu"

@@ -1,4 +1,4 @@
-exports[`GlobalSignInUpUpdate component renders correctly 1`] = `
+exports[`Global.SignInUp.Update component renders correctly 1`] = `
 <form
   autoComplete="off"
   className="sign-in-up-update"

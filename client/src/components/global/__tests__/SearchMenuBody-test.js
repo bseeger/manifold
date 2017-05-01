@@ -2,7 +2,7 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import SearchMenuBody from '../SearchMenuBody';
 
-describe("GlobalSearchMenuBody component", () => {
+describe("Global.SearchMenuBody component", () => {
 
   it('renders correctly', () => {
     const component = renderer.create(

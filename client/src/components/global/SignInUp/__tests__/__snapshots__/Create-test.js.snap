@@ -1,4 +1,4 @@
-exports[`GlobalSignInUpCreate component renders correctly 1`] = `
+exports[`Global.SignInUp.Create component renders correctly 1`] = `
 <div>
   <form
     method="post"

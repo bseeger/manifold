@@ -2,7 +2,7 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import Placeholder from '../Placeholder';
 
-describe("GlobalTextPlaceholder component", () => {
+describe("Global.Text.Placeholder component", () => {
 
   it('renders correctly', () => {
     const component = renderer.create(

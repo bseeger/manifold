@@ -1,4 +1,4 @@
-exports[`GlobalFormPagination component renders correctly 1`] = `
+exports[`Global.Form.Pagination component renders correctly 1`] = `
 <nav
   className="list-pagination-primary">
   <ul>
@@ -52,4 +52,4 @@ exports[`GlobalFormPagination component renders correctly 1`] = `
 </nav>
 `;
 
-exports[`GlobalFormPagination component renders null without pagination props 1`] = `null`;
+exports[`Global.Form.Pagination component renders null without pagination props 1`] = `null`;

@@ -1,10 +1,10 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 import Update from '../Update';
-import build from 'test/fixtures/build'
+import build from 'test/fixtures/build';
 import { Provider } from 'react-redux';
 
-describe("GlobalSignInUpUpdate component", () => {
+describe("Global.SignInUp.Update component", () => {
 
   const store = build.store();
 

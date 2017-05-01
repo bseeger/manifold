@@ -1,4 +1,4 @@
-exports[`GlobalDeveloperDebugger component renders correctly 1`] = `
+exports[`Global.Developer.Debugger component renders correctly 1`] = `
 <div
   style={
     Object {
@@ -199,7 +199,7 @@ exports[`GlobalDeveloperDebugger component renders correctly 1`] = `
                 {}
               </span>
                
-              1 key
+              5 keys
             </span>
           </span>
           <ul

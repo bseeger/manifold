@@ -1,4 +1,4 @@
-exports[`GlobalTextPlaceholder component renders correctly 1`] = `
+exports[`Global.Text.Placeholder component renders correctly 1`] = `
 <div
   className="asset-image-placeholder">
   <svg

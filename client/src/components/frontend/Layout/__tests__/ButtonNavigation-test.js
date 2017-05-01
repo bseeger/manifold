@@ -2,7 +2,7 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import { Layout } from 'components/frontend';
 
-describe("ButtonNavigation component", () => {
+describe("Frontend.Layout.ButtonNavigation component", () => {
 
   it('renders correctly', () => {
     const component = renderer.create(

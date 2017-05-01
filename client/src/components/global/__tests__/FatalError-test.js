@@ -1,9 +1,8 @@
 import React from 'react';
-import { shallow } from 'enzyme';
 import renderer from 'react-test-renderer';
 import FatalError from '../FatalError';
 
-describe("GlobalFatalError component", () => {
+describe("Global.FatalError component", () => {
 
   it('renders correctly', () => {
     const component = renderer.create(

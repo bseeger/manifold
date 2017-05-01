@@ -5,7 +5,7 @@ import build from 'test/fixtures/build';
 import entity from 'test/fixtures/entity';
 import { Provider } from "react-redux";
 
-describe("GlobalOauthButton component", () => {
+describe("Global.Oauth.Button component", () => {
 
   const store = build.store();
   const settings = entity.defaults.settings;

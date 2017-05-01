@@ -2,10 +2,10 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import { mount } from 'enzyme';
 import UpdateForm from '../UpdateForm';
-import build from 'test/fixtures/build'
+import build from 'test/fixtures/build';
 import { Provider } from 'react-redux';
 
-describe("GlobalSignInUpUpdateForm component", () => {
+describe("Global.SignInUp.UpdateForm component", () => {
 
   const store = build.store();
 

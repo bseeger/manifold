@@ -1,4 +1,4 @@
-exports[`GlobalFormEntityCount component renders correctly 1`] = `
+exports[`Global.Form.EntityCount component renders correctly 1`] = `
 <p
   className="list-total">
   Showing 

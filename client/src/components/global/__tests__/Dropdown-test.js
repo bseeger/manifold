@@ -2,7 +2,7 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import Dropdown from '../Dropdown';
 
-describe("GlobalDropdown component", () => {
+describe("Global.Dropdown component", () => {
 
   function triggerComponentMock() {
     return (

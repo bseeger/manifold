@@ -3,7 +3,7 @@ import { mount } from 'enzyme';
 import renderer from 'react-test-renderer';
 import Pagination from '../Pagination';
 
-describe("GlobalFormPagination component", () => {
+describe("Global.Form.Pagination component", () => {
 
   const pageChangeMock = jest.fn();
   const fakeClick = {stopPropagation: () => undefined, preventDefault: () => undefined};

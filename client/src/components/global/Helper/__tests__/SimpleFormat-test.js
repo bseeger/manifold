@@ -3,7 +3,7 @@ import { shallow } from 'enzyme';
 import renderer from 'react-test-renderer';
 import SimpleFormat from '../SimpleFormat';
 
-describe("GlobalHelperSimpleFormat component", () => {
+describe("Global.Helper.SimpleFormat component", () => {
 
   it('renders correctly', () => {
     const component = renderer.create(

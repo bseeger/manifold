@@ -1,0 +1,24 @@
+exports[`Frontend.Layout.MobileNav component renders correctly 1`] = `
+<nav
+  className="footer-fixed">
+  <ul
+    className="text-nav">
+    <li>
+      <a
+        className="active"
+        onClick={[Function]}
+        style={Object {}}>
+        Projects
+      </a>
+    </li>
+    <li>
+      <a
+        className=""
+        onClick={[Function]}
+        style={Object {}}>
+        Following
+      </a>
+    </li>
+  </ul>
+</nav>
+`;

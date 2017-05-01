@@ -1,4 +1,4 @@
-exports[`GlobalHeaderNotifications component renders correctly 1`] = `
+exports[`Global.HeaderNotifications component renders correctly 1`] = `
 <section
   className="header-notifications-container">
   <div

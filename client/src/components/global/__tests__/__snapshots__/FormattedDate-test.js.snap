@@ -1,4 +1,4 @@
-exports[`GlobalDate component renders correctly 1`] = `
+exports[`Global.Date component renders correctly 1`] = `
 <span>
   test January, 2017
 </span>

@@ -3,7 +3,7 @@ import { shallow } from 'enzyme';
 import renderer from 'react-test-renderer';
 import Avatar from '../Avatar';
 
-describe("GlobalAvatar component", () => {
+describe("Global.Avatar component", () => {
 
   it('renders correctly', () => {
     const component = renderer.create(

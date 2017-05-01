@@ -1,4 +1,4 @@
-exports[`GlobalCommentDetail component renders correctly 1`] = `
+exports[`Global.Comment.Detail component renders correctly 1`] = `
 <li
   className="annotation-comment">
   <section

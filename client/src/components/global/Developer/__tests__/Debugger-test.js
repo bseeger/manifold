@@ -3,7 +3,7 @@ import renderer from 'react-test-renderer';
 import Debugger from '../Debugger';
 import build from 'test/fixtures/build';
 
-describe("GlobalDeveloperDebugger component", () => {
+describe("Global.Developer.Debugger component", () => {
 
   const project = build.entity.project("1");
 

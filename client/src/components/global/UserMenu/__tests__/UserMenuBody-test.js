@@ -3,12 +3,12 @@ import { shallow, mount, render } from 'enzyme';
 import renderer from 'react-test-renderer';
 import UserMenuBody from '../UserMenuBody';
 
-describe("GlobalUserMenuBody Component", () => {
+describe("Global.UserMenu.UserMenuBody Component", () => {
 
   const props = {
-    hideUserMenu: () => {},
-    startLogout: () => {},
-    showLoginOverlay: () => {},
+    hideUserMenu: jest.fn(),
+    startLogout: jest.fn(),
+    showLoginOverlay: jest.fn(),
     visible: false
   };
 

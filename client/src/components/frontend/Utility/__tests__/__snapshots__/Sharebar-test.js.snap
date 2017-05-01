@@ -1,0 +1,18 @@
+exports[`Frontend.Utility.Sharebar component renders correctly 1`] = `
+<nav
+  className="share-nav-primary">
+  <span>
+    The Label
+  </span>
+  <ul>
+    <li>
+      <button
+        onClick={[Function]}
+        target="_blank">
+        <i
+          className="manicon manicon-twitter" />
+      </button>
+    </li>
+  </ul>
+</nav>
+`;

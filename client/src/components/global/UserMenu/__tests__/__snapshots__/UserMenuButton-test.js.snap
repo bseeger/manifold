@@ -1,4 +1,4 @@
-exports[`GlobalUserMenuBody Component renders correctly 1`] = `
+exports[`Global.UserMenu.UserMenuButton Component renders correctly 1`] = `
 <button
   className="button-avatar"
   onClick={[Function]}>

@@ -1,4 +1,4 @@
-exports[`GlobalUserMenuBody Component renders correctly 1`] = `
+exports[`Global.UserMenu.UserMenuBody Component renders correctly 1`] = `
 <nav
   className="user-menu menu-hidden">
   <i

@@ -3,7 +3,7 @@ import { mount } from 'enzyme';
 import renderer from 'react-test-renderer';
 import HeaderNotification from '../HeaderNotification';
 
-describe("GlobalHeaderNotification component", () => {
+describe("Global.HeaderNotification component", () => {
 
   const removeMock = jest.fn();
   const root = (

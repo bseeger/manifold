@@ -1,6 +1,6 @@
-exports[`ButtonNavigation component doesn't render anything when not logged in on home 1`] = `null`;
+exports[`Frontend.Layout.ButtonNavigation component doesn't render anything when not logged in on home 1`] = `null`;
 
-exports[`ButtonNavigation component renders correctly 1`] = `
+exports[`Frontend.Layout.ButtonNavigation component renders correctly 1`] = `
 <section
   className="bg-neutral05">
   <div
@@ -32,7 +32,7 @@ exports[`ButtonNavigation component renders correctly 1`] = `
 </section>
 `;
 
-exports[`ButtonNavigation component respects the grayBg prop 1`] = `
+exports[`Frontend.Layout.ButtonNavigation component respects the grayBg prop 1`] = `
 <section
   className="">
   <div
@@ -64,7 +64,7 @@ exports[`ButtonNavigation component respects the grayBg prop 1`] = `
 </section>
 `;
 
-exports[`ButtonNavigation component respects the showBrowse prop 1`] = `
+exports[`Frontend.Layout.ButtonNavigation component respects the showBrowse prop 1`] = `
 <section
   className="bg-neutral05">
   <div
@@ -86,7 +86,7 @@ exports[`ButtonNavigation component respects the showBrowse prop 1`] = `
 </section>
 `;
 
-exports[`ButtonNavigation component respects the showFollowing prop 1`] = `
+exports[`Frontend.Layout.ButtonNavigation component respects the showFollowing prop 1`] = `
 <section
   className="bg-neutral05">
   <div

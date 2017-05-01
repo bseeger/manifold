@@ -1,4 +1,4 @@
-exports[`GlobalUIPanel component renders correctly 1`] = `
+exports[`Global.UIPanel component renders correctly 1`] = `
 <div
   className="panel-visible">
   <div>

@@ -1,4 +1,4 @@
-exports[`GlobalFormInputError component renders correctly 1`] = `
+exports[`Global.Form.InputError component renders correctly 1`] = `
 <span
   className="errors">
   <span

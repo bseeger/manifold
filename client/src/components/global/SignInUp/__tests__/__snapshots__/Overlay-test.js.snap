@@ -1,4 +1,4 @@
-exports[`GlobalSignInUpOverlay component renders correctly 1`] = `
+exports[`Global.SignInUp.Overlay component renders correctly 1`] = `
 <div
   className="overlay-full-primary">
   <header
