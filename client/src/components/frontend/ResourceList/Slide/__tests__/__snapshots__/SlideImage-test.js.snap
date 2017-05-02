@@ -1,0 +1,11 @@
+exports[`Frontend.ResourceList.SlideImage component renders correctly 1`] = `
+<figure>
+  <div
+    className="figure-image"
+    style={
+      Object {
+        "backgroundImage": "url(null)",
+      }
+    } />
+</figure>
+`;

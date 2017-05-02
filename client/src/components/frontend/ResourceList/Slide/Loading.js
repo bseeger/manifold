@@ -9,6 +9,7 @@ export default class ResourceSlideFigureLoading extends Component {
   };
 
   componentDidMount() {
+    if(!this._figure) return null;
     const parentWidth = this._figure.parentNode.offsetWidth;
     this._figure.style.width = parentWidth + 'px';
   }

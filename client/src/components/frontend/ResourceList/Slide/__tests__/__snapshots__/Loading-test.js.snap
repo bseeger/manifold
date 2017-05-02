@@ -1,0 +1,25 @@
+exports[`Frontend.ResourceList.Loading component renders correctly 1`] = `
+<figure>
+  <div
+    className="figure-default"
+    style={
+      Object {
+        "backgroundImage": "url(/static/images/resource-splash.png)",
+      }
+    }>
+    <div
+      className="resource-info">
+      <i
+        className="manicon manicon-resource-file" />
+      <span
+        className="resource-type">
+        loading
+      </span>
+      <span
+        className="resource-date">
+        loading
+      </span>
+    </div>
+  </div>
+</figure>
+`;

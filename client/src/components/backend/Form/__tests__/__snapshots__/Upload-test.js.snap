@@ -1,4 +1,4 @@
-exports[`Form.Upload component when the upload input does not have a value renders correctly 1`] = `
+exports[`Backend.Form.Upload component when the upload input does not have a value renders correctly 1`] = `
 <div
   className="form-input">
   <div
@@ -51,7 +51,7 @@ exports[`Form.Upload component when the upload input does not have a value rende
 </div>
 `;
 
-exports[`Form.Upload component when the upload input doesn't have a remove prop renders correctly 1`] = `
+exports[`Backend.Form.Upload component when the upload input doesn't have a remove prop renders correctly 1`] = `
 <div
   className="form-input">
   <div
@@ -114,7 +114,7 @@ exports[`Form.Upload component when the upload input doesn't have a remove prop 
 </div>
 `;
 
-exports[`Form.Upload component when the upload input doesn't have set and setOther methods renders correctly 1`] = `
+exports[`Backend.Form.Upload component when the upload input doesn't have set and setOther methods renders correctly 1`] = `
 <div
   className="form-input">
   <div
@@ -177,7 +177,7 @@ exports[`Form.Upload component when the upload input doesn't have set and setOth
 </div>
 `;
 
-exports[`Form.Upload component when the upload input has a value renders correctly 1`] = `
+exports[`Backend.Form.Upload component when the upload input has a value renders correctly 1`] = `
 <div
   className="form-input">
   <div

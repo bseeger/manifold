@@ -1,0 +1,21 @@
+exports[`Backend.Form.TextArea component renders correctly 1`] = `
+<div
+  className="form-input">
+  <div
+    className="form-input"
+    style={Object {}}>
+    <label>
+      Label this
+    </label>
+    <textarea
+      onChange={[Function]}
+      placeholder={undefined}
+      style={
+        Object {
+          "height": 100,
+        }
+      }
+      value="" />
+  </div>
+</div>
+`;

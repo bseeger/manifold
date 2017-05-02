@@ -94,6 +94,7 @@ export default class DrawerWrapper extends PureComponent {
   }
 
   renderDrawer() {
+    console.log('yeah')
     const drawerStyleClass = classNames({
       'drawer-backend': this.props.style === 'backend',
       'drawer-frontend': this.props.style === 'frontend'
@@ -156,6 +157,7 @@ export default class DrawerWrapper extends PureComponent {
   }
 
   render() {
+    console.log(this.props)
     return (
       <ReactCSSTransitionGroup
         transitionName="drawer"

@@ -1,9 +1,9 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 import Secondary from '../Secondary';
-import { shallow, mount, render } from 'enzyme';
+import { render } from 'enzyme';
 
-describe("Navigation.Secondary component", () => {
+describe("Backend.Navigation.Secondary component", () => {
 
   const links = [
     {

@@ -1,4 +1,4 @@
-exports[`Dashboard.Notification component renders correctly 1`] = `
+exports[`Backend.Dashboard.Notification component renders correctly 1`] = `
 <nav
   className="notification-list-block">
   <ul>

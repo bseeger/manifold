@@ -1,4 +1,4 @@
-exports[`Navigation.Secondary component renders correctly 1`] = `
+exports[`Backend.Navigation.Secondary component renders correctly 1`] = `
 <nav
   className="panel-nav">
   <ul>

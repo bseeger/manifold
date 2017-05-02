@@ -1,0 +1,7 @@
+exports[`Backend.Form.FieldGroup component renders correctly 1`] = `
+<div>
+  <div>
+    How is babby formed?
+  </div>
+</div>
+`;

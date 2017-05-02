@@ -2,7 +2,7 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import Breadcrumb from '../Breadcrumb';
 
-describe("Navigation.Breadcrumb component", () => {
+describe("Backend.Navigation.Breadcrumb component", () => {
 
   const links = [
     {
@@ -13,7 +13,7 @@ describe("Navigation.Breadcrumb component", () => {
       path: '/link-2',
       label: 'Link Two'
     }
-  ]
+  ];
 
   it('renders correctly', () => {
     const component = renderer.create(

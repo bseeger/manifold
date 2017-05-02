@@ -1,4 +1,4 @@
-exports[`Dashboard.Activity component renders correctly 1`] = `
+exports[`Backend.Dashboard.Activity component renders correctly 1`] = `
 <table
   className="table-single-value">
   <tbody>

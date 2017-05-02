@@ -1,4 +1,4 @@
-exports[`Form.HasMany component renders correctly 1`] = `
+exports[`Backend.Form.HasMany component renders correctly 1`] = `
 <div
   className="form-input"
   style={Object {}}>

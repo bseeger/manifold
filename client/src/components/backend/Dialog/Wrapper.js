@@ -1,7 +1,6 @@
 import React, { PureComponent, PropTypes } from 'react';
 import { browserHistory } from 'react-router';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
-import { Link } from 'react-router';
 import classnames from 'classnames';
 
 export default class DialogWrapper extends PureComponent {

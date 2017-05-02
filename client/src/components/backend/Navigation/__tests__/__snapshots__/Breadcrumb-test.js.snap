@@ -1,4 +1,4 @@
-exports[`Navigation.Breadcrumb component renders correctly 1`] = `
+exports[`Backend.Navigation.Breadcrumb component renders correctly 1`] = `
 <div
   className="container flush">
   <nav
